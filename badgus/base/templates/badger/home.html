@@ -65,6 +65,7 @@
             </section>
         </section>
 
+        {% if badger_allows_add_by(request.user) %}
         <section class="item span4">
             <section class="blurb">
                 <h3>{{ _("Have an idea for a badge?") }}</h3>
@@ -74,6 +75,7 @@
                 <p><a class="action btn btn-primary btn-large" href="{{ url('badger_multiplayer.views.create') }}">{{ _("✸ Create a new badge") }}</a></p>
             </section>
         </section>
+        {% endif %}
 
     </div>
 </section>
