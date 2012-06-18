@@ -25,6 +25,9 @@ MINIFY_BUNDLES = {
         'bootstrap': (
             'bootstrap/css/bootstrap.css',
             'bootstrap/css/bootstrap-responsive.css',
+        ),
+        'yrs': (
+            'css/yrs.css',
         )
     },
     'js': {

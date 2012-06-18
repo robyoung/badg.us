@@ -17,8 +17,10 @@ html[xmlns] .clearfix { display: block; }
 .navbar-fixed-top form { margin: 0; padding: 0.5em 0 0.5em 0; display: inline }
 
 /* For some reason the bootstrap navbar isn't pushing content down without this */
-.navbar-fixed-top { position: static; }
+.navbar-fixed-top { top: 40px; }
+.hero-unit { padding-top: 120px;}
 
+.navbar .nav { margin-left: 300px; }
 .navbar .nav .claim { display: inline; }
 .navbar .nav .claim .claim_code { margin: 0.5em 1em; }
 
